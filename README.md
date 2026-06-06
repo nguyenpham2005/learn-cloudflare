@@ -2,6 +2,23 @@
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/templates/tree/main/next-starter-template)
 
+## Tóm tắt dự án
+
+Đây là dự án **Next.js Framework Starter** được thiết kế để triển khai trên **Cloudflare Workers**.
+
+- **Framework**: Next.js 16 với React 19 và TypeScript
+- **Mục tiêu**: Xây dựng ứng dụng web full-stack và deploy lên Cloudflare Workers như một static website
+- **Công nghệ chính**:
+  - OpenNext với Cloudflare adapter (chuyển đổi Next.js build output để chạy trên Cloudflare Workers)
+  - TailwindCSS 4 cho styling
+  - Wrangler cho Cloudflare Workers configuration
+
+## Cấu trúc dự án
+
+- `src/app/` - Chứa các trang Next.js (App Router)
+- `wrangler.jsonc` - Cấu hình Cloudflare Workers
+- `open-next.config.ts` - Cấu hình OpenNext
+
 <!-- dash-content-start -->
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It's deployed on Cloudflare Workers as a [static website](https://developers.cloudflare.com/workers/static-assets/).
